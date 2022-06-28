@@ -1,0 +1,7 @@
+/*
+
+Very hard example to understand with so need to do more research but in short if you need to have both variables a number and string... blah blah
+
+SEARCH ON THE INTERNET 
+
+*/
