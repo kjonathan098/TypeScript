@@ -36,3 +36,5 @@ let quant: 50 | 100 = 100
 type Quant = 50 | 100
 
 let quanti: Quant = 50
+
+console.log(quanti, 'quanti')

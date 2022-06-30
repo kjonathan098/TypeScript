@@ -27,6 +27,8 @@ B - We can define the structure of the obj just like before
 
         If you want to leave it empty initialize to an empty string 
 
+        * ALTHOUGH YOU CAN DECLARE THE STRUCTURE OF THE OBJ WITH KEY TYPE PAIRS ACCORDING TO ACADEMIND IS BETTER TO LET TS INFER IT
+
 
 C - Somethimes you wanna make properties read only so we dont change them anywhere 
 

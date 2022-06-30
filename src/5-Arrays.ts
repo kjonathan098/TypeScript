@@ -27,4 +27,25 @@ let empty: string[] = []
 let names: string = 'hello'
 empty.push(names)
 
+let hobbies: string[] = ['football, baseball']
+hobbies = [...hobbies, 'basketball']
 
+// writing and array of objects decalring key type pairs
+let users: {
+	name: string
+	sport: string
+}[] = [{name: 'john', sport: 'basket'}]
+
+users = [...users, {name: 'john', sport: 'basket'}]
+
+for (const user of users) {
+	console.log(user.name)
+}
+
+// same code without it
+
+let users2 = [{name: 'john', sport: 'basket'}]
+users2 = [...users, {name: 'john', sport: 'basket'}]
+for (const user of users2) {
+	console.log(user.name)
+}

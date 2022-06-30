@@ -30,6 +30,7 @@ D - To always check that a value is returned go to
     - TS Config file 
     - Enable "noImplicitReturn"
     - Now even if you didnt declare what type of return should be given there will be an error if something isnt returned 
+    * Dont think this is usefull since in my react apps a lot of functions are just doing an operation without returning anything or returning different thigns depending on results from backend .. auth, toast
 
 E - We can also make sure any un-used var locally throws err if un-used 
 
@@ -52,7 +53,7 @@ G - Lets add a second param called year
         return income * 1.5
     }
 
-H - With these two params if you wanna call this function you must provide the corred values & same amount. YOU CANNOT PASS MORE ARGUMENTS THAN THE ONES DECLARED ON THE FUNCTION
+H - With these two params if you wanna call this function you must provide the correct values & same amount. YOU CANNOT PASS MORE ARGUMENTS THAN THE ONES DECLARED ON THE FUNCTION
 
     caluclateTax(50_000 , 2020) - GOOD
     caluclateTax(50_000 , 2020, 40) - ERROR
@@ -88,4 +89,15 @@ const caluclateTax = (income: number, taxYear = 2022) => {
 	return income * 1.5
 }
 
+const voidFunc = (income: number, taxYear = 2022): number | void => {
+	if (taxYear < 2015) return
+	return income * 1.5
+}
+const voidFunc2 = (income: number, taxYear = 2022) => {
+	if (taxYear < 2015) return console.log('can calculate')
+
+	return income * 1.5
+}
+
 caluclateTax(50_000, 2022)
+voidFunc(60_000, 2014)

@@ -28,7 +28,7 @@ H - Another one in same sec is "noEmitOnError": true, . If there is an error it 
 
 J - now with this config gile you can run tsc and it will compile all the files and stored them in a folder of outDir 
 
-    run tsc 
+    type "tsc" in terminal
 
 
 
