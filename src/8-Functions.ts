@@ -60,7 +60,7 @@ H - With these two params if you wanna call this function you must provide the c
 
 I - If you dont want to pass an argument you need to make the parameters optional . Two ways 
 
-    - const caluclateTax = (income: number, taxYear?: number)
+    1) const caluclateTax = (income: number, taxYear?: number)
 
      In this case there will be error cause it is possible to be undefined so return will be undefined
 
@@ -72,7 +72,7 @@ I - If you dont want to pass an argument you need to make the parameters optiona
         return income * 1.5
     }
 
-    - Provide a default in params that will be overwritten if an arguemnt is passed when the function is called 
+    2) Provide a default in params that will be overwritten if an arguemnt is passed when the function is called 
 
         const caluclateTax = (income: number, taxYear = 2022) => {
         if (taxYear < 2022) return income * 1.3

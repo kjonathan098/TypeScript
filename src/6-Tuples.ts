@@ -17,7 +17,7 @@ B - Write it like this
 
     let user: [string, number] = ['mosh', 20302298]
 
-C - They on cons is that array.push it does actually pushes a new var even though we only declared two 
+C - The  cons is that array.push it does actually pushes a new value even though we only declared two 
 
 */
 

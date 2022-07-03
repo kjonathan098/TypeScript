@@ -2,9 +2,9 @@
 
 What is Type Script 
 
-In short typeScript is buil on top of JS but is more structured. 
+In short typeScript is build on top of JS but is more structured. 
 
-One of the most prominent features is that each variable is decalered what type is it. So when other compenent/function recieves that variable and is not what is expected is easy to catch the error . Thats what I understood  
+One of the most prominent features is that each variable is decalered with thw what type is it. So when other compenent/function recieves that variable and is not what is expected is easy to catch the error . Thats what I understood  
 
 
 Start by installing a TS compiler (converts the instructions written in TypeScript to its JavaScript equivalent. )
@@ -18,7 +18,7 @@ A - declare a Var called age and asign a value
 
 let age = 20
 
-B - To convert to ts just add two dots after age and decalre what tpy of var it is 
+B - To convert to ts just add two dots after age and declare what type of var it is 
 
 let age : number = 20
 

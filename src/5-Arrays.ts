@@ -45,7 +45,7 @@ for (const user of users) {
 // same code without it
 
 let users2 = [{name: 'john', sport: 'basket'}]
-users2 = [...users, {name: 'john', sport: 'basket'}]
+users2 = [...users, {name: 'mark', sport: 'tennis'}]
 for (const user of users2) {
 	console.log(user.name)
 }

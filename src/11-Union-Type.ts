@@ -8,7 +8,7 @@ A union type allows us to define a variable with multiple types. The union type 
 Lets say you dont know exactly what type of value youre gonna get you can write number or string and according to what you want to return alocate to each case scenario 
 
 
-Lets say you have a func that conver lbs to kg 
+Lets say you have a func that converts lbs to kg 
 
 A - write your function 
 

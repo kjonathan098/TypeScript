@@ -14,7 +14,7 @@ There are 3 problem
     - code doesnt look clean
 
 
-Instead we can use something similar to a model in mongoose (write the skeleton) and then re-use it with diff var. This is called type Alias 
+Instead we can use something similar to a model in mongoose or classes (write the skeleton) and then re-use it with diff var. This is called type Alias 
 
 
 A - With type Alias you can define a custom type. Start by writin type and in Pascal the var name 
@@ -43,7 +43,8 @@ type Employee = {
 	name: string
 }
 
+type Name = string
+
 const employeeOne: Employee = {id: 0998, name: 'mosh'}
 const employeeTwo: Employee = {id: 093, name: 'john'}
-
-
+const mosh: Name = 'mosh'

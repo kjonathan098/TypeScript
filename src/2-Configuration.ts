@@ -26,7 +26,7 @@ G - In the same section we have another setting called removeCommnets : if enabl
 
 H - Another one in same sec is "noEmitOnError": true, . If there is an error it will not compile to JS 
 
-J - now with this config gile you can run tsc and it will compile all the files and stored them in a folder of outDir 
+J - now with this config gile you can run tsc and it will compile all the files and stored them in the folder of outDir 
 
     type "tsc" in terminal
 
