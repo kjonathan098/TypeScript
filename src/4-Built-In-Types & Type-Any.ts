@@ -42,5 +42,6 @@ C - So basically Mosh says never to use this option unless you know what youre d
 
 let a: number = 20
 let b = 20
+const c: string = 'John '
 
 let level
